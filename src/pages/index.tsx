@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import DownloadUSDZ from "components/DownloadUSDZ";
 import type { NextPage } from "next";
+import Head from "next/head";
 
 const Index: NextPage = () => {
   // ~~~~~ Redux state ~~~~~
@@ -19,14 +20,19 @@ const Index: NextPage = () => {
 
   // ~~~~~ JSX ~~~~~
   return (
-    <Box
-      height="100%"
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <DownloadUSDZ />
-    </Box>
+    <>
+      <Head>
+        <title>Download USDZ File</title>
+      </Head>
+      <Box
+        height="100%"
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+      >
+        <DownloadUSDZ />
+      </Box>
+    </>
   );
 };
 
