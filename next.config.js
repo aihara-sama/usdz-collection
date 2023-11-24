@@ -7,4 +7,5 @@ const withBundleAnalyzer = bundleAnalyzer({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
+  output: "export",
 });

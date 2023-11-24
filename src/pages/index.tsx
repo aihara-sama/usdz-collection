@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 
 const Index: NextPage = () => {
+  // ~~~~~ Redux state ~~~~~
+
   // ~~~~~ Hooks ~~~~~
 
   // ~~~~~ Cmp state ~~~~~
